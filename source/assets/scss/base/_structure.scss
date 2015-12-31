@@ -1,0 +1,27 @@
+html { @include x-prefix(box-sizing, border-box, webkit moz); }
+
+* {
+	margin: 0;
+	padding: 0;
+    
+    &,
+    &:before,
+    &:after { @include x-prefix(box-sizing, border-box, webkit moz); }
+}
+
+.block {
+  padding: 10px 100px;
+  text-align: center;
+}
+
+.block:nth-child(odd) { background: #fff; }
+.block:nth-child(even) { background: #000; }
+
+.text {
+  color: #000;
+  display: block;
+  font-family: Arial;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
