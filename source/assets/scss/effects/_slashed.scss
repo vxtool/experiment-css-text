@@ -1,0 +1,44 @@
+.slashed {
+	color: #330000;
+	.block:nth-child(odd) { background: #fff; }
+	.block:nth-child(even) { background: #330000; }
+}
+
+.example-slashed-1 {
+  color: transparent;
+  font-size: 8em;
+  font-family: Arial, Helvetica;
+  line-height: 1.2;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  text-align: center;
+}
+
+.example-slashed-1:before,
+.example-slashed-1:after {
+	@include x-prefix(transform, rotate(5deg));
+	content: attr(title);
+	color: #fff;
+	font-size: 0.8em;
+	height: 50%;
+	overflow: hidden;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.example-slashed-1:before {
+	line-height: 1.5;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	right: 0;
+}
+
+.example-slashed-1:after {
+	line-height: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 5px;
+}
