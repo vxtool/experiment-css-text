@@ -1,76 +1,35 @@
-@include x-keyframes(blackblur) {
-  from {
-    text-shadow: 0 0 72px #000;
-    color: transparent;
-  }
-  to {
-    text-shadow: 0;
-    color: #000;
-  }
+// BLUR
+@include x-keyframes(light-black) {
+  from { text-shadow: 0 0 1em #000; }
+  to { text-shadow: 0; }
 }
 
-@include x-keyframes(fun-1) {
-  from {
-    text-shadow: 0 0 72px red;
-    color: transparent;
-  }
-  to {
-    text-shadow: 0;
-    color: black;
-  }
+@include x-keyframes(light-1) {
+  from { text-shadow: 0 0 1em #f00; }
+  to { text-shadow: 0; }
 }
 
-@include x-keyframes(fun-2) {
-  from {
-    text-shadow: 0 0 22px blue;
-    color: transparent;
-  }
-  to {
-    text-shadow: 0;
-    color: black;
-  }
+@include x-keyframes(light-2) {
+  from { text-shadow: 0 0 1em #00f; }
+  to { text-shadow: 0; }
 }
 
-@include x-keyframes(fun-3) {
-  from {
-    text-shadow: 0 0 152px green;
-    color: transparent;
-  }
-  to {
-    text-shadow: 0;
-    color: black;
-  }
+@include x-keyframes(light-3) {
+  from { text-shadow: 0 0 1em #008000; }
+  to { text-shadow: 0; }
 }
 
-@include x-keyframes(fun-4) {
-  from {
-    text-shadow: 0 0 102px cyan;
-    color: transparent;
-  }
-  to {
-    text-shadow: 0;
-    color: black;
-  }
+@include x-keyframes(light-4) {
+  from { text-shadow: 0 0 1em #f9289f; }
+  to { text-shadow: 0; }
 }
 
-@include x-keyframes(fun-5) {
-  from {
-    text-shadow: 0 0 222px magenta;
-    color: transparent;
-  }
-  to {
-    text-shadow: 0;
-    color: black;
-  }
+@include x-keyframes(light-5) {
+  from { text-shadow: 0 0 1em #0ff; }
+  to { text-shadow: 0; }
 }
 
-@include x-keyframes(fun-6) {
-  from {
-    text-shadow: 0 0 92px yellow;
-    color: transparent;
-  }
-  to {
-    text-shadow: 0;
-    color: #000;
-  }
+@include x-keyframes(light-6) {
+  from { text-shadow: 0 0 1em #f5eb29; }
+  to { text-shadow: 0; }
 }
