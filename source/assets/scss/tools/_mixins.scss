@@ -1,3 +1,9 @@
+// Clearfix
+@mixin x-clearfix() {
+  &:before, &:after { content: " "; display: table; }
+  &:after { clear: both; }
+}
+
 // Keyframes
 @mixin x-keyframes($animationName) {
   @-webkit-keyframes #{$animationName} {
