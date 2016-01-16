@@ -11,7 +11,7 @@
 .example-blur-1 span:nth-of-type(5)  { @include x-prefix(animation, light-black 2s 0.55s 1 alternate); }
 .example-blur-1 span:nth-of-type(6)  { @include x-prefix(animation, light-black 2s 0.7s  1 alternate); }
 .example-blur-1 span:nth-of-type(7)  { @include x-prefix(animation, light-black 2s 0.85s 1 alternate); }
-  
+
 .example-blur-2 span:nth-of-type(1)  { @include x-prefix(animation, light-1 2s 0s  infinite); }
 .example-blur-2 span:nth-of-type(2)  { @include x-prefix(animation, light-2 2s 0.25s  infinite); }
 .example-blur-2 span:nth-of-type(3)  { @include x-prefix(animation, light-3 2s 0.4s infinite); }
@@ -20,19 +20,12 @@
 .example-blur-2 span:nth-of-type(6)  { @include x-prefix(animation, light-6 2s 0.85s  infinite); }
 .example-blur-2 span:nth-of-type(7)  { @include x-prefix(animation, light-1 2s 1s infinite); }
 
-.example-blur-3 span { @include x-prefix(transition, all 0.9s ease); }
-.example-blur-3 span:hover {
-	@include x-prefix(transition, all 0.2s ease);
-	text-shadow: 0 0 72px #000; 
-	color: transparent;
+.example-blur-3 {
+  text-shadow: 0 0 4px #f5eb29;
+  color: transparent;
 }
 
 .example-blur-4 {
   text-shadow: 0 0 32px #fff;
-  color: transparent;
-}
-
-.example-blur-5 {
-  text-shadow: 0 0 4px #f5eb29;
   color: transparent;
 }
