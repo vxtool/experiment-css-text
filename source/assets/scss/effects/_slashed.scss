@@ -1,10 +1,10 @@
 .slashed {
 	color: #330000;
-	.block:nth-child(odd) { background: #fff; }
-	.block:nth-child(even) { background: #330000; }
+	.block { background: #330000; }
 }
 
-.example-slashed-1 {
+.example-slashed-1,
+.example-slashed-2 {
   color: transparent;
   font-size: 8em;
   font-family: Arial, Helvetica;
@@ -17,7 +17,9 @@
 }
 
 .example-slashed-1:before,
-.example-slashed-1:after {
+.example-slashed-1:after,
+.example-slashed-2:before,
+.example-slashed-2:after {
 	@include x-prefix(transform, rotate(5deg));
 	content: attr(title);
 	color: #fff;
@@ -25,9 +27,11 @@
 	height: 50%;
 	overflow: hidden;
 	text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  transition: all 0.5 ease;
 }
 
-.example-slashed-1:before {
+.example-slashed-1:before,
+.example-slashed-2:before {
 	line-height: 1.5;
 	position: absolute;
 	top: 0;
@@ -35,10 +39,27 @@
 	right: 0;
 }
 
-.example-slashed-1:after {
+.example-slashed-1:after,
+.example-slashed-2:after {
 	line-height: 0;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 5px;
 }
+
+@keyframes slashedLeft {
+  0% { left: 10px; }
+  100% { left: 50px; }
+}
+
+@keyframes slashedRight {
+  0% { right: 5px; }
+  100% { right: 50px; }
+}
+
+.example-slashed-2:before { left: 50px; }
+.example-slashed-2:after { right: 50px; }
+
+.example-slashed-2:before { animation: slashedLeft 1s linear; }
+.example-slashed-2:after { animation: slashedRight 1s linear; }
