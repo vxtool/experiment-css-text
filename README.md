@@ -12,7 +12,18 @@ npm install
 
 ## Effects
 
+- Anaglyphic
 - Blur
+- Flashlight
+- Neon
+- Poster
+- Shadow
+- Slashed
+- Tilt shift
+
+## Contribuição
+
+Veja como contribuir no [Contributing](CONTRIBUTING.md).
 
 ## Log
 

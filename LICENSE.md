@@ -1,4 +1,4 @@
-Copyright (c) 2015 Hemerson vianna
+Copyright (c) 2016 Hemerson vianna
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
