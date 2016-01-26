@@ -21,14 +21,18 @@ npm install
 - Slashed
 - Tilt shift
 
-## Contribuição
+## Contributing
 
-Veja como contribuir no [Contributing](CONTRIBUTING.md).
+- Fork it!
+- Create your feature branch: `git checkout -b my-new-feature`
+- Commit your changes: `git commit -m 'Add some feature'`
+- Push to the branch: `git push origin my-new-feature`
+- Submit a pull request
 
 ## Log
 
-Veja o [Changelog](CHANGELOG.md) para mais detalhes.
+Check [Releases](https://github.com/experiment-solutions/experiment-css-text/releases) for detailed changelog.
 
-## Licença
+## License
 
-[MIT license](LICENSE.md) © Copyright 2015 [Hemerson Vianna](http://hemersonvianna.io).
+[MIT license](http://hemersonvianna.mit-license.org/) © Hemerson Vianna
