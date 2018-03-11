@@ -1,8 +1,8 @@
 # Experiment with Text
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/experiment-solutions/experiment-css-text.svg?style=flat-square)](https://github.com/experiment-solutions/experiment-css-text/issues)
-[![devDependency Status](https://david-dm.org/experiment-solutions/experiment-css-text/dev-status.svg)](https://david-dm.org/experiment-solutions/experiment-css-text#info=devDependencies)
+[![issues](https://img.shields.io/github/issues/descco-tools/experiment-css-text.svg?style=flat-square)](https://github.com/descco-tools/experiment-css-text/issues)
+[![devDependency Status](https://david-dm.org/descco-tools/experiment-css-text/dev-status.svg)](https://david-dm.org/descco-tools/experiment-css-text#info=devDependencies)
 
 ## Instalação
 
@@ -31,7 +31,7 @@ npm install
 
 ## Log
 
-Check [Releases](https://github.com/experiment-solutions/experiment-css-text/releases) for detailed changelog.
+Check [Releases](https://github.com/descco-tools/experiment-css-text/releases) for detailed changelog.
 
 ## License
 
